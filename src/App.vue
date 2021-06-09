@@ -1,18 +1,18 @@
 <template>
 <div id="app">
-  <RestaurantCard />
+  <Home />
 </div>
 </template>
 
 <script>
 // appeler le composant
-import RestaurantCard from './components/RestaurantCard.vue'
+import Home from './pages/home.vue'
 
 export default {
   name: 'App',
-  // déclarer les comoposants
+  // déclarer les composants
   components : {
-    RestaurantCard
+    Home
   }
 
 }
@@ -22,6 +22,9 @@ export default {
 <style>
 @import url('./style/reset.css');
 #app {
-  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffe1e1;
+    padding: 0;
+    position: relative
 }
 </style>
